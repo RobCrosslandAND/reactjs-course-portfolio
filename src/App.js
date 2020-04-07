@@ -43,8 +43,8 @@ class App extends React.Component {
                 <button onClick={this.handleToggleFactsVisible}>Show Facts</button>
                 {factsVisible && (
                   <ul>
-                    <li>{"I'm a Leeds United supporter"}</li>
-                    <li>{"I'm trying to grow my own veg"}</li>
+                    <li>I&apos;m a Leeds United supporter</li>
+                    <li>I&apos;m trying to grow my own veg</li>
                     <li>I have two dogs</li>
                   </ul>
                 )}
