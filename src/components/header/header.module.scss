@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    color: #e6e6e6;
+    padding: 20px 10px;
+
+    a {
+        color: currentColor;
+        text-decoration: none;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .nav_links {
+        display: flex;
+        list-style: none;
+        
+        li {
+            padding: 0 15px;
+        }
+
+        a:hover {
+            border-bottom: 2px solid #e6e6e6
+        }
+    }
+}
